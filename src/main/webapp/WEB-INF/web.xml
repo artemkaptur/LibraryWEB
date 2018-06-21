@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<welcome-file-list>
+		<welcome-file>mainPage.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>GetIndexPageServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.GetIndexPageServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetIndexPageServlet</servlet-name>
+		<url-pattern>/ss</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowAllBooksServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.ShowAllBooksServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ShowAllBooksServlet</servlet-name>
+		<url-pattern>/sss</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateBookServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.CreateBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CreateBookServlet</servlet-name>
+		<url-pattern>/ssss</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteBookServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.DeleteBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteBookServlet</servlet-name>
+		<url-pattern>/s5</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateBookServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.UpdateBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateBookServlet</servlet-name>
+		<url-pattern>/s6</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchByTitleServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.SearchByTitleServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchByTitleServlet</servlet-name>
+		<url-pattern>/s7</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowAllEmployeesServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.ShowAllEmployeesServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ShowAllEmployeesServlet</servlet-name>
+		<url-pattern>/s8</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateEmployeeServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.CreateEmployeeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CreateEmployeeServlet</servlet-name>
+		<url-pattern>/s9</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteEmployeeServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.DeleteEmployeeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteEmployeeServlet</servlet-name>
+		<url-pattern>/s10</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateEmployeeServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.UpdateEmployeeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateEmployeeServlet</servlet-name>
+		<url-pattern>/s11</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchByEmailServlet</servlet-name>
+		<servlet-class>com.epam.corporatelibrary.servlet.SearchByEmailServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchByEmailServlet</servlet-name>
+		<url-pattern>/s12</url-pattern>
+	</servlet-mapping>
+
+</web-app>
